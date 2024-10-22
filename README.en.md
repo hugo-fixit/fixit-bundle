@@ -1,14 +1,14 @@
 # FixIt Bundle
 
-👉 [English README](/README.en.md) | 简体中文说明
+👉 English README | [简体中文说明](/README.md)
 
-🌲 将 FixIt 核心主题和所有 hugo-fixit 组件捆绑成一个单一组件。
+🌲 Bundles the FixIt core theme and all hugo-fixit components into a single component.
 
-## 安装组件
+## Install Component
 
-首先确保你的项目本身是一个 [Hugo 模块](https://gohugo.io/hugo-modules/use-modules/#initialize-a-new-module)。
+First make sure that your project itself is a [Hugo module](https://gohugo.io/hugo-modules/use-modules/#initialize-a-new-module).
 
-然后在你的 `hugo.toml` 配置文件中添加这个主题组件：
+Then add this theme component to your `hugo.toml` configuration file:
 
 ```toml
 [module]
@@ -16,18 +16,18 @@
     path = "github.com/hugo-fixit/fixit-bundle"
 ```
 
-在 Hugo 首次启动时，它将下载所需的文件。
+On the first start of Hugo it will download the required files.
 
-要更新到模块的最新版本，请运行：
+To update to the latest version of the module run:
 
 ```bash
 hugo mod get -u
 hugo mod tidy
 ```
 
-## 使用方法
+## Usage
 
-在你的 `hugo.toml` 中添加以下内容：
+Add the following to your `hugo.toml`:
 
 ```toml
 [params]
@@ -50,9 +50,9 @@ hugo mod tidy
     min = "0.134.1"
 ```
 
-你可以使用所有包含的主题组件的配置和功能。
+You can use all configurations and features of all included theme components.
 
-## 组件
+## Components
 
 - [FixIt](https://github.com/hugo-fixit/FixIt)
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
