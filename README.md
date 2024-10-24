@@ -1,6 +1,6 @@
 # FixIt Bundle
 
-👉 [English README](/README.en.md) | 简体中文说明
+👉 简体中文说明 | [English README](/README.en.md)
 
 🌲 将 FixIt 核心主题和所有 hugo-fixit 组件捆绑成一个单一组件。
 
