@@ -15,6 +15,7 @@
     widgets = []
     assets = [
       "inject/cmpt-mdevtools",
+      "inject/cmpt-flyfish",
       "inject/shortcode-caniuse.html",
     ]
     postFooterBefore = []
@@ -34,6 +35,8 @@
     path = "github.com/hugo-fixit/FixIt"
   [[module.imports]]
     path = "github.com/hugo-fixit/component-projects"
+  [[module.imports]]
+    path = "github.com/hugo-fixit/cmpt-flyfish"
   [[module.imports]]
     path = "github.com/hugo-fixit/cmpt-mdevtools"
   [[module.imports]]

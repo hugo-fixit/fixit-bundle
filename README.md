@@ -56,8 +56,10 @@ hugo mod tidy
 
 - [FixIt](https://github.com/hugo-fixit/FixIt)
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
+- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)
 - [component-projects](https://github.com/hugo-fixit/component-projects)
 - [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)
 - [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)
 - [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)
+- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)
 - [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)
