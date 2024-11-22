@@ -21,13 +21,14 @@ jobs:
           extended: true
 
       - name: Update theme components
-        run: hugo mod get -u
-
-      - name: Tidy go.mod, go.sum
-        run: hugo mod tidy
+        run: |
+          hugo mod get -u
+          hugo mod tidy
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          commit_user_name: Cell[bot]
+          commit_user_email: lrhx@users.noreply.github.com
+          commit_author: Cell[bot] <lrhx@users.noreply.github.com>
           commit_message: ":arrow_up: Chore(deps): update theme components"
-          commit_author: "lruihao-bot <lruihao-bot@users.noreply.github.com>"
