@@ -47,7 +47,7 @@ Add the following to your `hugo.toml`:
     path = "github.com/hugo-fixit/fixit-bundle"
   [module.hugoVersion]
     extended = true
-    min = "0.134.1"
+    min = "0.139.0"
 ```
 
 You can use all configurations and features of all included theme components.
@@ -55,8 +55,9 @@ You can use all configurations and features of all included theme components.
 ## Components
 
 - [FixIt](https://github.com/hugo-fixit/FixIt)
-- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
 - [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)
+- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
+- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-translate)
 - [component-projects](https://github.com/hugo-fixit/component-projects)
 - [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)
 - [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)
