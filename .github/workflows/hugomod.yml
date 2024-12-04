@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Update-FixIt:
+  update-deps:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,8 +27,28 @@ jobs:
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
+        id: auto-commit
         with:
           commit_user_name: Cell[bot]
           commit_user_email: lrhx@users.noreply.github.com
           commit_author: Cell[bot] <lrhx@users.noreply.github.com>
           commit_message: ":arrow_up: Chore(deps): update theme components"
+
+      - name: Get latest tag
+        uses: actions-ecosystem/action-get-latest-tag@v1
+        id: get-latest-tag
+      
+      - name: Bump semver
+        uses: actions-ecosystem/action-bump-semver@v1
+        id: bump-semver
+        with:
+          current_version: ${{ steps.get-latest-tag.outputs.tag }}
+          # major, premajor, minor, preminor, patch, prepatch, prerelease
+          level: patch
+
+      - name: Push tag
+        uses: actions-ecosystem/action-push-tag@v1
+        if: steps.auto-commit.outputs.changes_detected == 'true'
+        with:
+          tag: ${{ steps.bump-semver.outputs.new_version }}
+          message: ':bookmark: Chore(release): ${{ steps.bump-semver.outputs.new_version }}'
