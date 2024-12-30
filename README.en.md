@@ -57,7 +57,7 @@ You can use all configurations and features of all included theme components.
 - [FixIt](https://github.com/hugo-fixit/FixIt)
 - [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
-- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-translate)
+- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)
 - [component-projects](https://github.com/hugo-fixit/component-projects)
 - [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)
 - [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)
