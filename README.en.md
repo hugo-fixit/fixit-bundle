@@ -45,21 +45,21 @@ Add the following to your `hugo.toml`:
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/fixit-bundle"
-  [module.hugoVersion]
-    extended = true
-    min = "0.139.0"
 ```
 
 You can use all configurations and features of all included theme components.
 
-## Components
+## Component List
 
-- [FixIt](https://github.com/hugo-fixit/FixIt)
-- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)
-- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)
-- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)
-- [component-projects](https://github.com/hugo-fixit/component-projects)
-- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)
-- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)
-- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)
-- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)
+<!-- COMPONENT_LIST_START -->
+- [FixIt v0.3.16](https://github.com/hugo-fixit/FixIt)
+- [cmpt-flyfish v1.0.1](https://github.com/hugo-fixit/cmpt-flyfish)
+- [cmpt-mdevtools v1.0.1](https://github.com/hugo-fixit/cmpt-mdevtools)
+- [cmpt-translate v1.5.2](https://github.com/hugo-fixit/cmpt-translate)
+- [component-projects v1.5.3](https://github.com/hugo-fixit/component-projects)
+- [hugo-json-feed v1.0.2](https://github.com/hugo-fixit/hugo-json-feed)
+- [shortcode-caniuse v1.2.2](https://github.com/hugo-fixit/shortcode-caniuse)
+- [shortcode-docs-bookmark v1.0.3](https://github.com/hugo-fixit/shortcode-docs-bookmark)
+- [shortcode-mmt-netease v1.1.1](https://github.com/hugo-fixit/shortcode-mmt-netease)
+- [shortcode-rewards v1.0.5](https://github.com/hugo-fixit/shortcode-rewards)
+<!-- COMPONENT_LIST_END -->

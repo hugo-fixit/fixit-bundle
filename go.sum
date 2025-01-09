@@ -10,6 +10,8 @@ github.com/hugo-fixit/component-projects v1.5.3 h1:phKG//aW4sF9CSUn6kJry2ovBGSlJ
 github.com/hugo-fixit/component-projects v1.5.3/go.mod h1:nXW0R37REwpfwUD1I4RtB5QW71vw66nRyB9uEpYxr+c=
 github.com/hugo-fixit/hugo-json-feed v1.0.2 h1:xZABGHuoX/u0hnoF5AoP7ane7l9T7UNmlOAiFdWvBvA=
 github.com/hugo-fixit/hugo-json-feed v1.0.2/go.mod h1:ystvqmSnWdkU0aBybKKNztj8P1ViY6AhMaK/bsBL9uw=
+github.com/hugo-fixit/shortcode-asciinema v1.0.0 h1:s+NcUeCzvM8sPAvU5KPirTULyRFN0vMK90burBd5jaU=
+github.com/hugo-fixit/shortcode-asciinema v1.0.0/go.mod h1:xSMC2YHX8KCM8EPPmn7PA6Cwg6X9UGsV8gA7+1WBPTw=
 github.com/hugo-fixit/shortcode-caniuse v1.2.2 h1:cuJVdJ1A0IgJnMQjifCDeRSRxIY0plTgs+wthCbrIls=
 github.com/hugo-fixit/shortcode-caniuse v1.2.2/go.mod h1:RoPLFt+7uLui5rjvkC/qFGeo4nly5AzzwIID9SoDKNc=
 github.com/hugo-fixit/shortcode-docs-bookmark v1.0.3 h1:OMkbLv4yIifZ/dNUNoIvFhCxOFQNUAAbRkgqe+9aycQ=
