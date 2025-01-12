@@ -58,6 +58,7 @@ You can use all configurations and features of all included theme components.
 - [cmpt-translate v1.5.2](https://github.com/hugo-fixit/cmpt-translate)
 - [component-projects v1.5.3](https://github.com/hugo-fixit/component-projects)
 - [hugo-json-feed v1.0.2](https://github.com/hugo-fixit/hugo-json-feed)
+- [shortcode-asciinema v1.0.0](https://github.com/hugo-fixit/shortcode-asciinema)
 - [shortcode-caniuse v1.2.2](https://github.com/hugo-fixit/shortcode-caniuse)
 - [shortcode-docs-bookmark v1.0.3](https://github.com/hugo-fixit/shortcode-docs-bookmark)
 - [shortcode-mmt-netease v1.1.1](https://github.com/hugo-fixit/shortcode-mmt-netease)
