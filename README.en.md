@@ -51,7 +51,7 @@ You can use all configurations and features of all included theme components.
 
 ## Component List
 
-<!-- COMPONENT_LIST_START -->
+<!-- HUGO_FIXIT_COMPONENTS:START -->
 - [FixIt v0.3.16](https://github.com/hugo-fixit/FixIt)
 - [cmpt-flyfish v1.0.1](https://github.com/hugo-fixit/cmpt-flyfish)
 - [cmpt-mdevtools v1.0.1](https://github.com/hugo-fixit/cmpt-mdevtools)
@@ -63,4 +63,4 @@ You can use all configurations and features of all included theme components.
 - [shortcode-docs-bookmark v1.0.3](https://github.com/hugo-fixit/shortcode-docs-bookmark)
 - [shortcode-mmt-netease v1.1.1](https://github.com/hugo-fixit/shortcode-mmt-netease)
 - [shortcode-rewards v1.0.5](https://github.com/hugo-fixit/shortcode-rewards)
-<!-- COMPONENT_LIST_END -->
+<!-- HUGO_FIXIT_COMPONENTS:END -->

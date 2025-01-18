@@ -24,9 +24,16 @@ jobs:
         run: |
           hugo mod get -u
           hugo mod tidy
-
-      - uses: actions/setup-node@v4
-      - run: node generate.js
+      
+      - name: Generate hugo-fixit component list
+        uses: hugo-fixit/action-component-list@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          comment_tag_name: HUGO_FIXIT_COMPONENTS
+          readme_path: 'README.md,README.en.md'
+          exclude_repos: 'fixit-bundle'
+          template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
