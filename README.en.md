@@ -52,15 +52,26 @@ You can use all configurations and features of all included theme components.
 ## Component List
 
 <!-- HUGO_FIXIT_COMPONENTS:START -->
-- [FixIt v0.3.16](https://github.com/hugo-fixit/FixIt)
-- [cmpt-flyfish v1.0.1](https://github.com/hugo-fixit/cmpt-flyfish)
-- [cmpt-mdevtools v1.0.1](https://github.com/hugo-fixit/cmpt-mdevtools)
-- [cmpt-translate v1.5.2](https://github.com/hugo-fixit/cmpt-translate)
-- [component-projects v1.5.3](https://github.com/hugo-fixit/component-projects)
-- [hugo-json-feed v1.0.2](https://github.com/hugo-fixit/hugo-json-feed)
-- [shortcode-asciinema v1.0.0](https://github.com/hugo-fixit/shortcode-asciinema)
-- [shortcode-caniuse v1.2.2](https://github.com/hugo-fixit/shortcode-caniuse)
-- [shortcode-docs-bookmark v1.0.3](https://github.com/hugo-fixit/shortcode-docs-bookmark)
-- [shortcode-mmt-netease v1.1.1](https://github.com/hugo-fixit/shortcode-mmt-netease)
-- [shortcode-rewards v1.0.5](https://github.com/hugo-fixit/shortcode-rewards)
+- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\
+ 🐟 一个 canvas 实现的小鱼游动动画效果。
+- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
+ Mobile devtools component powered by vConsole and eruda.
+- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
+ 🌐 A component for site automatic translation.
+- [component-projects](https://github.com/hugo-fixit/component-projects)\
+ 🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.
+- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\
+ Hugo theme component for ATOM feed custom Output Format.
+- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\
+ Hugo theme component for JSON feed custom Output Format.
+- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\
+ A Hugo theme component with asciinema-embed shortcode.
+- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\
+ 一个含有 caniuse shortcode 的 Hugo 主题组件。
+- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\
+ 🔖 Embed bookmark of FixIt Docs.
+- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\
+ 🎶 一个含有网易云随机评论 shortcode 的 Hugo 主题组件。
+- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\
+ A Hugo theme component with reward-log or sponsor-log shortcode.
 <!-- HUGO_FIXIT_COMPONENTS:END -->
