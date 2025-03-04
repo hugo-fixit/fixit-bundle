@@ -57,6 +57,4 @@
   [[module.imports]]
     path = "github.com/hugo-fixit/shortcode-docs-bookmark"
   [[module.imports]]
-    path = "github.com/hugo-fixit/shortcode-mmt-netease"
-  [[module.imports]]
     path = "github.com/hugo-fixit/shortcode-rewards"
