@@ -49,6 +49,8 @@
   [[module.imports]]
     path = "github.com/hugo-fixit/cmpt-translate"
   [[module.imports]]
+    path = "github.com/hugo-fixit/hugo-atom-feed"
+  [[module.imports]]
     path = "github.com/hugo-fixit/hugo-json-feed"
   [[module.imports]]
     path = "github.com/hugo-fixit/shortcode-asciinema"
@@ -56,5 +58,7 @@
     path = "github.com/hugo-fixit/shortcode-caniuse"
   [[module.imports]]
     path = "github.com/hugo-fixit/shortcode-docs-bookmark"
+  [[module.imports]]
+    path = "github.com/hugo-fixit/shortcode-mmt-netease"
   [[module.imports]]
     path = "github.com/hugo-fixit/shortcode-rewards"
