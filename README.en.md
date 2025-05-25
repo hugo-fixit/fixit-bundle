@@ -53,7 +53,7 @@ You can use all configurations and features of all included theme components.
 
 <!-- HUGO_FIXIT_COMPONENTS:START -->
 - [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\
- 🐟 一个 canvas 实现的小鱼游动动画效果。
+ 🐟 A canvas implemented animation effect of small fish swimming.
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
  Mobile devtools component powered by vConsole and eruda.
 - [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
@@ -67,7 +67,7 @@ You can use all configurations and features of all included theme components.
 - [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\
  A Hugo theme component with asciinema-embed shortcode.
 - [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\
- 一个含有 caniuse shortcode 的 Hugo 主题组件。
+ A Hugo theme component with caniuse shortcode.
 - [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\
  🔖 Embed bookmark of FixIt Docs.
 - [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\
