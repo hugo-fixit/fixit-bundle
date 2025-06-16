@@ -36,7 +36,7 @@ jobs:
           template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         id: auto-commit
         with:
           commit_user_name: Cell[bot]
