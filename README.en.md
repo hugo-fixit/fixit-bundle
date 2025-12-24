@@ -12,8 +12,9 @@ Then add this theme component to your `hugo.toml` configuration file:
 
 ```toml
 [module]
-  [[module.imports]]
-    path = "github.com/hugo-fixit/fixit-bundle"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/fixit-bundle"
 ```
 
 On the first start of Hugo it will download the required files.
@@ -31,20 +32,21 @@ Add the following to your `hugo.toml`:
 
 ```toml
 [params]
-  # ...
+# ...
 
 [outputs]
-  _merge = "shallow"
+_merge = "shallow"
 
 [taxonomies]
-  _merge = "shallow"
+_merge = "shallow"
 
 [markup]
-  _merge = "shallow"
+_merge = "shallow"
 
 [module]
-  [[module.imports]]
-    path = "github.com/hugo-fixit/fixit-bundle"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/fixit-bundle"
 ```
 
 You can use all configurations and features of all included theme components.
@@ -56,6 +58,8 @@ You can use all configurations and features of all included theme components.
  🐟 A canvas implemented animation effect of small fish swimming.
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
  Mobile devtools component powered by vConsole and eruda.
+- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\
+ A Christmas Easter Egg by JavaScript.
 - [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
  🌐 A component for site automatic translation.
 - [component-projects](https://github.com/hugo-fixit/component-projects)\

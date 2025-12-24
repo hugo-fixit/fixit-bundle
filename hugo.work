@@ -5,6 +5,7 @@ use ../FixIt
 use ../component-projects
 use ../cmpt-flyfish
 use ../cmpt-mdevtools
+use ../cmpt-santa-hat
 use ../cmpt-translate
 use ../hugo-atom-feed
 use ../hugo-json-feed

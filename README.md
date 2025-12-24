@@ -12,8 +12,9 @@
 
 ```toml
 [module]
-  [[module.imports]]
-    path = "github.com/hugo-fixit/fixit-bundle"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/fixit-bundle"
 ```
 
 在 Hugo 首次启动时，它将下载所需的文件。
@@ -31,20 +32,21 @@ hugo mod tidy
 
 ```toml
 [params]
-  # ...
+# ...
 
 [outputs]
-  _merge = "shallow"
+_merge = "shallow"
 
 [taxonomies]
-  _merge = "shallow"
+_merge = "shallow"
 
 [markup]
-  _merge = "shallow"
+_merge = "shallow"
 
 [module]
-  [[module.imports]]
-    path = "github.com/hugo-fixit/fixit-bundle"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/fixit-bundle"
 ```
 
 你可以使用所有包含的主题组件的配置和功能。
@@ -56,6 +58,8 @@ hugo mod tidy
  🐟 A canvas implemented animation effect of small fish swimming.
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
  Mobile devtools component powered by vConsole and eruda.
+- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\
+ A Christmas Easter Egg by JavaScript.
 - [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
  🌐 A component for site automatic translation.
 - [component-projects](https://github.com/hugo-fixit/component-projects)\

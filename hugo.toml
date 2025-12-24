@@ -47,6 +47,8 @@
   [[module.imports]]
     path = "github.com/hugo-fixit/cmpt-mdevtools"
   [[module.imports]]
+    path = "github.com/hugo-fixit/cmpt-santa-hat"
+  [[module.imports]]
     path = "github.com/hugo-fixit/cmpt-translate"
   [[module.imports]]
     path = "github.com/hugo-fixit/hugo-atom-feed"

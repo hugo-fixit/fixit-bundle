@@ -42,7 +42,7 @@ jobs:
           commit_user_name: Cell[bot]
           commit_user_email: lrhx@users.noreply.github.com
           commit_author: Cell[bot] <lrhx@users.noreply.github.com>
-          commit_message: ":arrow_up: Chore(deps): update theme components"
+          commit_message: "chore(deps): update theme components"
 
       - name: Get latest tag
         uses: actions-ecosystem/action-get-latest-tag@v1
@@ -61,4 +61,4 @@ jobs:
         if: steps.auto-commit.outputs.changes_detected == 'true'
         with:
           tag: ${{ steps.bump-semver.outputs.new_version }}
-          message: ':bookmark: Chore(release): ${{ steps.bump-semver.outputs.new_version }}'
+          message: 'chore(release): ${{ steps.bump-semver.outputs.new_version }}'
