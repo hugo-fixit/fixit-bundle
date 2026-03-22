@@ -3,7 +3,7 @@ module github.com/hugo-fixit/fixit-bundle
 go 1.20
 
 require (
-	github.com/hugo-fixit/FixIt v0.4.3 // indirect
+	github.com/hugo-fixit/FixIt v0.4.4 // indirect
 	github.com/hugo-fixit/cmpt-flyfish v1.1.0 // indirect
 	github.com/hugo-fixit/cmpt-mdevtools v1.1.0 // indirect
 	github.com/hugo-fixit/cmpt-santa-hat v1.0.3 // indirect
