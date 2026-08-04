@@ -1,16 +1,15 @@
-# FixIt 0.3.12 | NEW Custom partials config
-# Custom partials must be stored in the /layouts/partials/ directory.
-# Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/
+# Custom partials must be stored in the /layouts/_partials/ directory.
+# Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/.
 [params]
 
-[params.customPartials]
+[params.custom_partials]
 head = [
   "inject/component-projects.html",
   "inject/fixit-docs-bookmark.html",
   "inject/shortcode-rewards.html",
 ]
-menuDesktop = ["inject/translate-menu-desktop.html"]
-menuMobile = ["inject/translate-menu-mobile.html"]
+menu_desktop = ["inject/translate-menu-desktop.html"]
+menu_mobile = ["inject/translate-menu-mobile.html"]
 profile = []
 aside = []
 comment = []
@@ -23,8 +22,8 @@ assets = [
   "inject/cmpt-translate.html",
   "inject/shortcode-caniuse.html",
 ]
-postFooterBefore = []
-postFooterAfter = []
+post_footer_before = []
+post_footer_after = []
 
 [outputs]
 _merge="shallow"
@@ -39,9 +38,10 @@ _merge="shallow"
 
 [[module.imports]]
 path="github.com/hugo-fixit/FixIt"
+version="main"
 
 [[module.imports]]
-path="github.com/hugo-fixit/component-projects"
+path="github.com/hugo-fixit/component-projects/v2"
 
 [[module.imports]]
 path="github.com/hugo-fixit/cmpt-flyfish"
@@ -53,7 +53,7 @@ path="github.com/hugo-fixit/cmpt-mdevtools"
 path="github.com/hugo-fixit/cmpt-santa-hat"
 
 [[module.imports]]
-path="github.com/hugo-fixit/cmpt-translate"
+path="github.com/hugo-fixit/cmpt-translate/v2"
 
 [[module.imports]]
 path="github.com/hugo-fixit/hugo-atom-feed"
@@ -68,7 +68,7 @@ path="github.com/hugo-fixit/shortcode-asciinema"
 path="github.com/hugo-fixit/shortcode-caniuse"
 
 [[module.imports]]
-path="github.com/hugo-fixit/shortcode-docs-bookmark"
+path="github.com/hugo-fixit/shortcode-docs-bookmark/v2"
 
 [[module.imports]]
 path="github.com/hugo-fixit/shortcode-missing-translation"
@@ -77,4 +77,4 @@ path="github.com/hugo-fixit/shortcode-missing-translation"
 path="github.com/hugo-fixit/shortcode-mmt-netease"
 
 [[module.imports]]
-path="github.com/hugo-fixit/shortcode-rewards"
+path="github.com/hugo-fixit/shortcode-rewards/v2"
