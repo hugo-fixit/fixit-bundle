@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/hugo-fixit/cmpt-flyfish v1.1.0 // indirect
-	github.com/hugo-fixit/cmpt-mdevtools v1.1.0 // indirect
+	github.com/hugo-fixit/cmpt-mdevtools/v2 v2.0.0 // indirect
 	github.com/hugo-fixit/cmpt-santa-hat v1.1.0 // indirect
 	github.com/hugo-fixit/cmpt-translate/v2 v2.0.0 // indirect
 	github.com/hugo-fixit/component-projects/v2 v2.1.2 // indirect

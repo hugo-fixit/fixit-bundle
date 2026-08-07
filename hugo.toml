@@ -17,8 +17,8 @@ footer = []
 widgets = []
 assets = [
   "inject/santa-hat.fixit.html",
-  "inject/cmpt-flyfish",
-  "inject/cmpt-mdevtools",
+  "inject/cmpt-flyfish.html",
+  "inject/cmpt-mdevtools.html",
   "inject/cmpt-translate.html",
   "inject/shortcode-caniuse.html",
 ]
@@ -47,7 +47,7 @@ path="github.com/hugo-fixit/component-projects/v2"
 path="github.com/hugo-fixit/cmpt-flyfish"
 
 [[module.imports]]
-path="github.com/hugo-fixit/cmpt-mdevtools"
+path="github.com/hugo-fixit/cmpt-mdevtools/v2"
 
 [[module.imports]]
 path="github.com/hugo-fixit/cmpt-santa-hat"
